@@ -1,0 +1,10 @@
+Cài đặt NodeJS 
+https://nodejs.org/en/download/
+
+Cài đặt GIT
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+Vào thư mục minori-manu-front
+chạy lệnh 'npm i' để cài đặt các package.
+Nếu báo lỗi về file 'log' thì xóa file 'package-lock.json' rồi chạy lại 'npm i'
+Nếu thành công thì chạy lệnh 'npm start' để chạy project. 

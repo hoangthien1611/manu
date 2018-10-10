@@ -1,0 +1,113 @@
+
+import React, { Component } from "react";
+
+export default class ContentListImageContainer extends Component {
+
+  render() {
+    return (
+        <div className="review-images-block">
+        <a
+          href="http://media22.tiin.vn//archive/imageslead/339/201802/20180221/thumb00_01113248273635.jpg"
+          className="review-images"
+        >
+          <img
+            src="http://media22.tiin.vn//archive/imageslead/339/201802/20180221/thumb00_01113248273635.jpg"
+            alt="img"
+            className="img-responsive"
+            width="100px"
+          />
+        </a>
+        <a
+          href="http://nghetinhplus.vn/uploads/news/dienchauna/2017/08/22/u22-viet-nam-u22-philippi-9080-1503387099.jpg"
+          className="review-images"
+        >
+          <img
+            src="http://nghetinhplus.vn/uploads/news/dienchauna/2017/08/22/u22-viet-nam-u22-philippi-9080-1503387099.jpg"
+            alt="img"
+            className="img-responsive"
+            width="100px"
+          />
+        </a>
+        <a
+          href="http://img.f50.bdpcdn.net/Assets/Media/2015/12/17/56/cong-phuong.jpg"
+          className="review-images"
+        >
+          <img
+            src="http://img.f50.bdpcdn.net/Assets/Media/2015/12/17/56/cong-phuong.jpg"
+            alt="img"
+            className="img-responsive"
+            width="100px"
+          />
+        </a>
+        <a
+          href="https://i.ytimg.com/vi/r3KtBrLU5Ag/mqdefault.jpg"
+          className="review-images"
+        >
+          <img
+            src="https://i.ytimg.com/vi/r3KtBrLU5Ag/mqdefault.jpg"
+            alt="img"
+            className="img-responsive"
+            width="100px"
+          />
+        </a>
+
+        <a
+          href="http://media3.onbox.vn:8088/phimonbox/images/20180126/1153840526475.jpg"
+          className="review-images"
+        >
+          <img
+            src="http://media3.onbox.vn:8088/phimonbox/images/20180126/1153840526475.jpg"
+            alt="img"
+            className="img-responsive"
+            width="100px"
+          />
+        </a>
+        <a
+          href="http://streaming1.danviet.vn/upload/1-2018/images/2018-01-29/xuan-truong-1-1517235803-width500height333.jpg"
+          className="review-images"
+        >
+          <img
+            src="http://streaming1.danviet.vn/upload/1-2018/images/2018-01-29/xuan-truong-1-1517235803-width500height333.jpg"
+            alt="img"
+            className="img-responsive"
+            width="100px"
+          />
+        </a>
+        <a
+          href="https://znews-photo-td.zadn.vn/w660/Uploaded/ohunua2/2018_01_21/925239_1376806455935165_225951942_n.jpg"
+          className="review-images"
+        >
+          <img
+            src="https://znews-photo-td.zadn.vn/w660/Uploaded/ohunua2/2018_01_21/925239_1376806455935165_225951942_n.jpg"
+            alt="img"
+            className="img-responsive"
+            width="100px"
+          />
+        </a>
+        <a
+          href="https://znews-photo-td.zadn.vn/w660/Uploaded/zatmrs/2017_03_29/Thumb_Tien_Dung_2.jpg"
+          className="review-images"
+        >
+          <img
+            src="https://znews-photo-td.zadn.vn/w660/Uploaded/zatmrs/2017_03_29/Thumb_Tien_Dung_2.jpg"
+            alt="img"
+            className="img-responsive"
+            width="100px"
+          />
+        </a>
+
+        <a
+          href="https://static.bongda24h.vn/medias/standard/2017/11/15/vanthanh.jpg"
+          className="review-images"
+        >
+          <img
+            src="https://static.bongda24h.vn/medias/standard/2017/11/15/vanthanh.jpg"
+            alt="img"
+            className="img-responsive"
+            width="100px"
+          />
+        </a>
+      </div>
+    );
+  }
+}

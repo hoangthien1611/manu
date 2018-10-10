@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    padding: 5px;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  
+  
+  /* Six columns side by side */
+  .columnSlides {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .title{border-bottom: 1px dotted #ccc;
+          padding: 7px 0;
+          font-size: 13px;
+          line-height: 18px;
+          color: #666;
+          float: left;
+          width: 100%;
+          color:cornflowerblue;
+          
+      }
+  .price-san{
+          float: right;
+          color: red;
+          font-weight: bold;
+      }
+  .diachi{
+          overflow:auto;
+      }

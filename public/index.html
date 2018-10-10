@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Stadium</title>
+
+    <!-- Bootstrap -->
+    <link href="%PUBLIC_URL%/assets/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- External Css -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/themify-icons.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/owl.carousel.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/easy-autocomplete.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/easy-autocomplete.themes.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/listStadium.css" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/main.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/custom.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+    
+    <!-- leaflet -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/leaflet/css/leaflet.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/leaflet/css/MarkerCluster.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/leaflet/css/MarkerCluster.Default.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="%PUBLIC_URL%/images/favicon.png">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="PUBLIC_URL%/images/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="PUBLIC_URL%/images/icon-114x114.png">
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    
+
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="%PUBLIC_URL%/assets/js/jquery.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/bootstrap.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/leaflet/js/dummylatlng.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/isotope.pkgd.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/owl.carousel.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/jquery.easy-autocomplete.min.js"></script>
+    <script src='%PUBLIC_URL%/assets/js/tinymce.min.js'></script>
+<!--     
+    <script>
+      $('[rel="popover"]').popover({
+          container: 'body',
+          html: true,
+          content: function () {
+              var clone = $($(this).data('popover-content')).clone(true).removeClass('hide');
+              return clone;
+          }
+      });
+    </script> -->
+
+    <!-- leaflet -->
+    <script src="%PUBLIC_URL%/assets/leaflet/js/leaflet-src.js"></script>
+    <script src="%PUBLIC_URL%/assets/leaflet/js/leaflet.markercluster-src.js"></script>
+    
+    <!-- Google Map Api -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmiJjq5DIg_K9fv6RE72OY__p9jz0YTMI"></script>
+    
+    <script src="%PUBLIC_URL%/js/custom.js"></script>
+    <script src="%PUBLIC_URL%/js/dashboard.js"></script>
+    <script src="%PUBLIC_URL%/js/map.js"></script>
+    <script src="%PUBLIC_URL%/js/searchMap.js"></script>
+    <script src="%PUBLIC_URL%/js/userList.js"></script>
+
+
+    
+  </body>
+</html>
